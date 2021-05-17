@@ -1,0 +1,11 @@
+---
+application:
+  name: "webnoob-dev"
+  project: "test"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-webnoob-dev"
+  routes:
+  - application_name: "webnoob-dev"
+    paths:
+    - "/*"
